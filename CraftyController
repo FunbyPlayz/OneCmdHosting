@@ -8,4 +8,5 @@ source .venv/bin/activate
 pip install --no-cache-dir -r requirements.txt
 pip install peewee && pip install packaging &&  pip install certifi &&  pip install libgravatar && pip install cryptography && pip install colorama
 python3 main.py
- echo_message "$RED" "The Account and passwords are here: crafty-4/app/config/default-creds.txt."
+sudo apt install -y nodejs npm
+console.log("Hello from Node.js!");
