@@ -1,0 +1,10 @@
+#!/bin/bash
+git clone https://gitlab.com/crafty-controller/crafty-4.git
+cd crafty-4
+sudo apt update
+sudo apt install python3 python3-venv python3-pip openjdk-17-jre -y
+python3 -m venv .venv
+source .venv/bin/activate
+pip install --no-cache-dir -r requirements.txt
+pip install peewee && pip install packaging &&  pip install certifi &&  pip install libgravatar && pip install cryptography && pip install colorama
+python3 main.py
