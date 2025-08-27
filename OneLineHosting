@@ -35,7 +35,7 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 # Typing Animation for Credits (quick typing in 1s total)
-credit_text="${YELLOW}${BOLD}Credit by ${GREEN}${BOLD}FunbyPlayz ${NC}"
+credit_text="${YELLOW}${BOLD}Credit To ${GREEN}${BOLD}_FunbyPlayz ${NC}"
 clear
 echo -n ""  # Start on a new line
 displayed=""
