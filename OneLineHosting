@@ -192,13 +192,13 @@ function skyport_menu {
     case $skyport_choice in
       1)
         echo_message "$GREEN" "Installing Skyport Panel..."
-        bash <(curl -s https://raw.githubusercontent.com/JishnuTheGamer/Vps/refs/heads/main/skyport)
+        bash <(curl -s https://raw.githubusercontent.com/FunbyPlayz/OneCmdHosting/refs/heads/main/SkyPort)
         echo_message "$GREEN" "Skyport Panel installation completed!"
         prompt_daemon "skyport"
         ;;
       2)
         echo_message "$GREEN" "Installing Daemon (wings)..."
-        bash <(curl -s https://raw.githubusercontent.com/JishnuTheGamer/skyport/refs/heads/main/wings)
+        bash <(curl -s https://raw.githubusercontent.com/FunbyPlayz/OneCmdHosting/refs/heads/main/SkyWings)
         echo_message "$GREEN" "Your daemon(wings) is complet install make sure paste the 1 & 2 is your node (daemon)configure code"
         echo -e "${CYAN}1) cd skyportd${NC}"
         echo -e "${CYAN}2) paste your configure${NC}"
