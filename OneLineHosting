@@ -139,7 +139,7 @@ function draco_menu {
     case $draco_choice in
       1)
         echo_message "$GREEN" "Installing Draco Panel..."
-        bash <(curl -s https://raw.githubusercontent.com/JishnuTheGamer/Vps/refs/heads/main/draco)
+        bash <(curl -s https://raw.githubusercontent.com/FunbyPlayz/OneCmdHosting/refs/heads/main/dracopanel)
         echo_message "$GREEN" "Draco Panel installation completed!"
         prompt_daemon "draco"
         ;;
